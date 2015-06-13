@@ -1,0 +1,8 @@
+---
+nginx_max_clients: 512
+nginx_user: "www-data"
+
+nginx_configs:
+  gzip:
+    - gzip on
+    - gzip_disable msie6
